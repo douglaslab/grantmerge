@@ -1,0 +1,66 @@
+---
+layout: default
+title: GrantMerge
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Installation</h1>
+
+  <ol>
+    <li>Create a new Google <a target='_new' href='https://docs.google.com/spreadsheets/u/0/'>Spreadsheet</a>.</li>
+    <li>In the Add-ons menu, select "Get add-ons...", search for GrantMerge.</li>
+    <li>Click the "+ FREE" icon to install.</li>
+  </ol>
+
+  <h1 class="page-heading">How to use</h1>
+
+  <ol>
+   <li>Populate the column headings and data for your grants. Here is an <a target="_new" href="https://docs.google.com/spreadsheets/d/1lo7l_PduM2rQZnKY-Ov8byefNmvy4iNIr3cV-AKxcd0/edit?usp=sharing">example spreadsheet</a> to start.
+    <a target='_new' href='https://docs.google.com/spreadsheets/d/1lo7l_PduM2rQZnKY-Ov8byefNmvy4iNIr3cV-AKxcd0/edit?usp=sharing'><img class="thumb" src='../images/populated-sheet.png'></a>
+   </li>
+   <li>In the Add-ons menu, select GrantMerge > Export data to launch the sidebar</li>
+   <li>Choose a template and click Export.<br><img class="thumb" src='../images/export.png'></a></li>
+   <li>Download links will appear upon completion, and a new google doc will appear in your account.</li>
+  </ol>
+
+
+  <h1 class="page-heading">Create your own template</h1>
+    <ol>
+      <li>Create a new Google Doc with "Template" in the name so it will show up as an export option.</li>
+      <li>Populate the template with variables that will be substituted for each row. Template variables should be identical to the column names surrounded by a leading and trailing <code>%</code> character. For example, the column heading <code>funder_name</code> would correspond to a template variable <code>%funder_name%</code> </li>
+      <li>Feel free to use these <a target="_new" href="https://docs.google.com/document/d/12z3uI8Nil8N83sj-6VfHuijlBQTNF-PKAoVR32Cf3vw/edit?usp=sharing">NSF</a> or <a target="_new" href="https://docs.google.com/document/d/1EQdNkuuQhXsZVjA9DZUETlc-GqJ_YIDTO2cghnSSJus/edit?usp=sharing">NIH</a> templates as a starting point to create your own.</li>
+    </ol>
+
+</div>
+
+<script type="text/javascript">
+    function selectElementContents(el) {
+        var body = document.body, range, sel;
+        if (document.createRange && window.getSelection) {
+            range = document.createRange();
+            sel = window.getSelection();
+            sel.removeAllRanges();
+            try {
+                range.selectNodeContents(el);
+                sel.addRange(range);
+            } catch (e) {
+                range.selectNode(el);
+                sel.addRange(range);
+            }
+        } else if (body.createTextRange) {
+            range = body.createTextRange();
+            range.moveToElementText(el);
+            range.select();
+        }
+    }
+</script>
+
+
+
