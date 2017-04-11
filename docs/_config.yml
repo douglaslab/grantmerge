@@ -1,7 +1,7 @@
 # Setup
 name:         GrantMerge
 tagline:      A tool to quickly merge spreadsheets into document templates
-baseurl:      "grantmerge"
+baseurl:      "/grantmerge"
 
 # Gems
 gems:
