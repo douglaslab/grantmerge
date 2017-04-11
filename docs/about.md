@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+GrantMerge was created by <a href="https://twitter.com/smd4">Shawn Douglas</a> at <a href="http://bionano.ucsf.edu/">UCSF</a>. Hopefully you find it useful!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Website <a href="https://github.com/jasonlong/architect-theme">architect-theme</a> by <a href="https://github.com/jasonlong">jasonlong</a>.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hosted on <a href="https://github.com/douglaslab/grantmerge">github</a>.
+
+Feel free to [contact me](http://bionano.ucsf.edu/contact) with comments or questions, though I may be slow to respond.
