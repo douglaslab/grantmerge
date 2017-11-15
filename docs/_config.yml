@@ -1,12 +1,11 @@
 # Setup
-name:         GrantMerge
-tagline:      A tool to quickly merge spreadsheets into document templates
-baseurl:      ""
+title: GrantMerge
+tagline: A tool to quickly merge spreadsheets into document templates
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
 
-#Others
+# Others
 markdown: kramdown
 theme: jekyll-theme-minimal
