@@ -7,9 +7,9 @@ permalink: /tos/
 Terms and Conditions ("Terms")
 ==============================
 
-Last updated: November 07, 2018
+Last updated: [June 21, 2019](https://github.com/douglaslab/grantmerge/commits/master/docs/tos.md)
 
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the [GrantMerge G-Suite app](https://chrome.google.com/webstore/detail/grantmerge/fcgpikfclacdnbkcndfofdbmnkolnoig) or https://douglaslab.github.io/grantmerge/ website (the "Service") operated by GrantMerge ("us", "we", or "our").
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the [GrantMerge G-Suite app](https://gsuite.google.com/marketplace/app/grantmerge/317388607533) or https://douglaslab.github.io/grantmerge/ website (the "Service") operated by GrantMerge ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
 
